@@ -57,7 +57,7 @@ Contributions are welcome! If you find any bugs or have suggestions for new feat
 
 - React
 - React Router
-- Chart.js (for visual analytics)
+
 
 
 ---
