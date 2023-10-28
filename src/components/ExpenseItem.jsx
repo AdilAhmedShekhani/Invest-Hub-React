@@ -44,7 +44,7 @@ const ExpenseItem = ({ expense, showBudget }) => {
           <button
             type="submit"
             className="btn btn--warning"
-            aria-label={`Delete ${expense.name} expense`}
+            aria-label={`Delete ${expense.name} product`}
           >
             <TrashIcon width={20} />
           </button>

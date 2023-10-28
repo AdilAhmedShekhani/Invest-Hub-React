@@ -30,7 +30,7 @@ const BudgetItem = ({ budget, showDelete = false }) => {
         {formatPercentage(spent / amount)}
       </progress>
       <div className="progress-text">
-        <small>{formatCurrency(spent)} spent</small>
+        <small>{formatCurrency(spent)} Sold</small>
         <small>{formatCurrency(amount - spent)} remaining</small>
       </div>
       {showDelete ? (
@@ -41,7 +41,7 @@ const BudgetItem = ({ budget, showDelete = false }) => {
             onSubmit={(event) => {
               if (
                 !confirm(
-                  "Are you sure you want to permanently delete this budget?"
+                  "Are you sure you want to permanently delete this?"
                 )
               ) {
                 event.preventDefault();

@@ -7,7 +7,7 @@ const Table = ({ expenses, showBudget = true }) => {
       <table>
         <thead>
           <tr>
-            {["Name", "Amount", "Date", showBudget ? "Budget" : "", ""].map(
+            {["Name", "Amount", "Date", showBudget ? "Product" : "", ""].map(
               (i, index) => (
                 <th key={index}>{i}</th>
               )

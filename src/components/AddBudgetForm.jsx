@@ -24,7 +24,7 @@ const AddBudgetForm = () => {
   return (
     <div className="form-wrapper">
       <h2 className="h3">
-        Create budget
+        Create Investment budget
       </h2>
       <fetcher.Form
         method="post"
@@ -32,12 +32,12 @@ const AddBudgetForm = () => {
         ref={formRef}
       >
         <div className="grid-xs">
-          <label htmlFor="newBudget">Budget Name</label>
+          <label htmlFor="newBudget">Product Name</label>
           <input
             type="text"
             name="newBudget"
             id="newBudget"
-            placeholder="e.g., Groceries"
+            placeholder="e.g., Stock, Bonds, Mutual Funds.."
             required
             ref={focusRef}
           />
@@ -49,7 +49,7 @@ const AddBudgetForm = () => {
             step="0.01"
             name="newBudgetAmount"
             id="newBudgetAmount"
-            placeholder="e.g., Rs.350"
+            placeholder="Investment Amount"
             required
             inputMode="decimal"
           />
@@ -59,7 +59,7 @@ const AddBudgetForm = () => {
           {
             isSubmitting ? <span>Submitting…</span> : (
               <>
-                <span>Create budget</span>
+                <span>Create Investment budget</span>
                 <CurrencyDollarIcon width={20} />
               </>
             )

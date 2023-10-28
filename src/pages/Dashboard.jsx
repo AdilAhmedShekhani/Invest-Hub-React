@@ -64,7 +64,7 @@ export async function dashboardAction({ request }) {
         amount: values.newExpenseAmount,
         budgetId: values.newExpenseBudget,
       });
-      return toast.success(`Expense ${values.newExpense} created!`);
+      return toast.success(`Product ${values.newExpense} created!`);
     } catch (e) {
       throw new Error("There was a problem creating your expense.");
     }
@@ -76,7 +76,7 @@ export async function dashboardAction({ request }) {
         key: "expenses",
         id: values.expenseId,
       });
-      return toast.success("Expense deleted!");
+      return toast.success("Product deleted!");
     } catch (e) {
       throw new Error("There was a problem deleting your expense.");
     }
@@ -91,7 +91,7 @@ const Dashboard = () => {
       {userName ? (
         <div className="dashboard">
           <h1>
-            Welcome back, <span className="accent">{userName}</span>
+            Welcome, <span className="accent">{userName}</span>
           </h1>
           <div className="grid-sm">
             {budgets && budgets.length > 0 ? (
@@ -100,7 +100,7 @@ const Dashboard = () => {
                   <AddBudgetForm />
                   <AddExpenseForm budgets={budgets} />
                 </div>
-                <h2>Existing Budgets</h2>
+                <h2>Existing Products</h2>
                 <div className="budgets">
                   {budgets.map((budget) => (
                     <BudgetItem key={budget.id} budget={budget} />
@@ -108,7 +108,7 @@ const Dashboard = () => {
                 </div>
                 {expenses && expenses.length > 0 && (
                   <div className="grid-md">
-                    <h2>Recent Expenses</h2>
+                    <h2>Recent Products</h2>
                     <Table
                       expenses={expenses
                         .sort((a, b) => b.createdAt - a.createdAt)
@@ -116,7 +116,7 @@ const Dashboard = () => {
                     />
                     {expenses.length > 8 && (
                       <Link to="expenses" className="btn btn--dark">
-                        View all expenses
+                        View all Products
                       </Link>
                     )}
                   </div>
@@ -124,8 +124,8 @@ const Dashboard = () => {
               </div>
             ) : (
               <div className="grid-sm">
-                <p>Personal budgeting is the secret to financial freedom.</p>
-                <p>Create a budget to get started!</p>
+                <p>Investment is the secret to financial freedom.</p>
+                <p>Create a Investment budget to get started!</p>
                 <AddBudgetForm />
               </div>
             )}

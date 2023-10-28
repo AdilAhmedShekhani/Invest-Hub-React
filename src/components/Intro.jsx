@@ -11,10 +11,10 @@ const Intro = () => {
     <div className="intro">
       <div>
         <h1>
-          Take Control of <span className="accent">Your Money</span>
+        InvestHub <span className="accent"> Where Visions Take Flight</span>
         </h1>
         <p>
-          Personal budgeting is the secret to financial freedom. Start your journey today.
+        The InvestHub aims to bridge the gap between product owners and investors, providing a seamless platform for collaboration and investment opportunities.
         </p>
         <Form method="post">
           <input
