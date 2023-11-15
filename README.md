@@ -4,7 +4,7 @@
 
 ## Overview
 
-MyBudgetApp is a web-based budget management application built with React. It allows users to track their expenses, set budgets, and analyze their spending habits in a user-friendly interface. The application aims to help users take control of their finances, make informed financial decisions, and achieve their financial goals.
+InvestHub is a web-based Investbudget management application built with React. It allows users to track their Investment, set budgets, and analyze their spending habits in a user-friendly interface. The application aims to help users take control of their finances, make informed financial decisions, and achieve their financial goals.
 
 ### Demo
 
