@@ -1,4 +1,4 @@
-# MyBudgetApp (Budget-App-React)
+# InvestHub (Invest-Hub-React)
 
 ![Screenshot 2023-08-08 095546](https://github.com/AdilAhmedShekhani/Budget-App-React/assets/126003246/1f41cae9-5b1b-48d7-a904-7c083fa8ae39)
 
