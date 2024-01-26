@@ -1,6 +1,7 @@
 # InvestHub (Invest-Hub-React)
 
-![Screenshot 2023-08-08 095546](https://github.com/AdilAhmedShekhani/Budget-App-React/assets/126003246/1f41cae9-5b1b-48d7-a904-7c083fa8ae39)
+![Screenshot 2024-01-26 094544](https://github.com/AdilAhmedShekhani/Invest-Hub-React/assets/126003246/c1386d7f-078b-428b-b374-c8ca494df91f)
+
 
 ## Overview
 
@@ -19,9 +20,9 @@ Check out the live demo of the application: [Invest Hub Live Demo](https://inves
 
 ## Screenshots
 
-![Screenshot 2023-08-08 095019](https://github.com/AdilAhmedShekhani/Budget-App-React/assets/126003246/09e40885-7f8f-4806-ad73-4cf1f1b78cb7)
+![Screenshot 2024-01-26 094409](https://github.com/AdilAhmedShekhani/Invest-Hub-React/assets/126003246/1dc76195-0b5a-46cf-961e-d0598366392f)
 
-![Screenshot 2023-08-08 095302](https://github.com/AdilAhmedShekhani/Budget-App-React/assets/126003246/cc1a5886-5470-4209-a3fa-8d75c173f8d8)
+![Screenshot 2024-01-26 094333](https://github.com/AdilAhmedShekhani/Invest-Hub-React/assets/126003246/440f26de-23b7-4972-85d3-4a51338af9b9)
 
 
 ## Installation
