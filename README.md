@@ -45,10 +45,10 @@ Follow these steps to set up the project on your local machine:
 After setting up the project, follow these steps to start managing your budget:
 
 1. **Create an Account**: Sign up or log in to your account to get started.
-2. **Add Expenses**: Click on the "Add Expense" button to add your expenses with relevant details like amount, date, and category.
-3. **Set Budgets**: Navigate to the "Budgets" section to set your desired budgets for various spending categories.
-4. **Analyze Spending**: Explore the interactive charts in the "Analytics" section to gain insights into your spending habits.
-5. **Stay on Track**: Monitor your expenses regularly and adjust your spending to stay within your budget limits.
+2. **Add Commodities**: Click on the "Create Investment" button to add your investment with relevant details like amount, date, and category.
+3. **Create Prodeucts**: Navigate to the "Products" section to set your desired products for various spending categories.
+4. **Analyze Selling**: Explore the interactive charts in the "Analytics" section to gain insights into your Selling.
+5. **Stay on Track**: Monitor your product regularly and adjust your selling to stay within your investment limits.
 
 ## Contributing
 
@@ -63,4 +63,4 @@ Contributions are welcome! If you find any bugs or have suggestions for new feat
 
 ---
 
-Thank you for checking out MyBudgetApp! If you have any questions or feedback, please don't hesitate to reach out. Happy budgeting!
+Thank you for checking out Invest Hub App! If you have any questions or feedback, please don't hesitate to reach out. Happy Investing!
