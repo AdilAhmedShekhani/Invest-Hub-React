@@ -8,7 +8,7 @@ InvestHub is a web-based Investbudget management application built with React. I
 
 ### Demo
 
-Check out the live demo of the application: [MyBudgetApp Live Demo](https://mybudgetapp-react.netlify.app/)
+Check out the live demo of the application: [Invest Hub Live Demo](https://invest-hub-react.netlify.app/)
 
 ## Features
 
